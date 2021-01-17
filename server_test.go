@@ -16,11 +16,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/prometheus/client_golang/prometheus/testutil"
+	"github.com/m3db/client_golang/prometheus/promhttp"
+	"github.com/m3db/client_golang/prometheus/testutil"
 
 	pb_testproto "github.com/grpc-ecosystem/go-grpc-prometheus/examples/testproto"
-	"github.com/prometheus/client_golang/prometheus"
+	"github.com/m3db/client_golang/prometheus"
 	dto "github.com/prometheus/client_model/go"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

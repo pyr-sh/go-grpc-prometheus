@@ -6,7 +6,7 @@
 package grpc_prometheus
 
 import (
-	prom "github.com/prometheus/client_golang/prometheus"
+	prom "github.com/m3db/client_golang/prometheus"
 )
 
 var (

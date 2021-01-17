@@ -6,7 +6,7 @@ package grpc_prometheus
 import (
 	"time"
 
-	"github.com/prometheus/client_golang/prometheus"
+	"github.com/m3db/client_golang/prometheus"
 	"google.golang.org/grpc/codes"
 )
 
